@@ -1,0 +1,4 @@
+.venv
+train
+valid
+data.yaml
