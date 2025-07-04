@@ -8,7 +8,7 @@ import numpy as np
 
 @st.cache_resource
 def load_model():
-    return YOLO("C:/ML_Project/runs/detect/train16/weights/best.pt")
+    return YOLO("./runs/detect/train16/weights/best.pt")
 
 
 @st.cache_resource
