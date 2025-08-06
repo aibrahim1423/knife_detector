@@ -1,0 +1,11 @@
+.venv
+train
+valid
+data.yaml
+
+runs/detect/*
+!runs/detect/train16/
+runs/detect/train16/*batch*
+
+build
+dist
